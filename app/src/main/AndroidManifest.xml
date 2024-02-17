@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AptitudeTest"
+        tools:targetApi="31">
+        <activity
+            android:name=".profile"
+            android:exported="false"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.AptitudeTest" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".trainsolved"
+            android:exported="false" />
+        <activity
+            android:name=".clockksolved"
+            android:exported="false" />
+        <activity
+            android:name=".calendersolved"
+            android:exported="false" />
+        <activity
+            android:name=".boatsolved"
+            android:exported="false" />
+        <activity
+            android:name=".train"
+            android:exported="false" />
+        <activity
+            android:name=".clockk"
+            android:exported="false" />
+        <activity
+            android:name=".calender"
+            android:exported="false" />
+        <activity
+            android:name=".boat"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Tips"
+            android:exported="false" />
+        <activity
+            android:name=".Test"
+            android:exported="false" />
+        <activity
+            android:name=".Practice"
+            android:exported="false" />
+        <activity
+            android:name=".Solved"
+            android:exported="false" />
+        <activity
+            android:name=".Lessontostudy"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

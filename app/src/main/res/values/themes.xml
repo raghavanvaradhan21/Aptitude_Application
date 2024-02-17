@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AptitudeTest" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimaryVariant">@color/cari_green</item>
+
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary" tools:ignore="DuplicateDefinition">@color/blue</item>
+    </style>
+
+    <style name="Theme.AptitudeTest" parent="Base.Theme.AptitudeTest" />
+</resources>
